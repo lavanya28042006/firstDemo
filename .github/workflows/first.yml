@@ -2,7 +2,7 @@ name: Lavanya-Pipeline
 on: workflow_dispatch
 jobs:
   Lavanya-job:
-     runs-on: ubuntu-22.04-arm
+     runs-on: ubuntu-latest
      steps:
        - name: lavanya job
          run: echo"Lakshmilavanya"
