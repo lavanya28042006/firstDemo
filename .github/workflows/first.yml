@@ -4,5 +4,5 @@ jobs:
   Lavanya-job:
      runs-on: ubuntu-22.04-arm
      steps:
-       - name: print hello world
+       - name: lavanya job
          run: echo"Lakshmilavanya"
