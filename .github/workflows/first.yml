@@ -6,3 +6,6 @@ jobs:
      steps:
        - name: lavanya job
          run: echo "Lakshmilavanya"
+       - uses: actions/setup-python@v6
+         with:
+            python-version: '3.10' 
